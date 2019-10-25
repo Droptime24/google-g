@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const db = require("../models");
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://user1:password1@ds137498.mlab.com:37498/heroku_scszbl1k"
+  process.env.MONGODB_URI || "mongodb://duser:password1@ds339458.mlab.com:39458/heroku_39f1xjmg"
 );
 
 const bookSeed = [
